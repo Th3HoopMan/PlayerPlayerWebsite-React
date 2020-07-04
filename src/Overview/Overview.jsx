@@ -8,7 +8,6 @@ import gaming_mouse from '../Assets/gaming_mouse.png';
 
 const overviewTitle1 = "Honestly?";
 const overviewTitle2 = "We're Just Vibing Over Here.";
-const overviewSubtitle = "probably doesn't exist yet, but our show is pretty good.";
 
 const overview = () => {
     return (

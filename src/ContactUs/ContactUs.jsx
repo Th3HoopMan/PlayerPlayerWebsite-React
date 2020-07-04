@@ -38,7 +38,7 @@ const ContactUs = () => {
                         <img 
                                 className={styles.emailIcon}
                                 src={email} 
-                                alt="Twitter Logo"
+                                alt="Email Icon"
                             />
                     </a>
                 </div>
