@@ -1,4 +1,13 @@
 .App {
   text-align: center;
+  background-color: #FFF;
 }
 
+.cassette {
+  width: 271px;
+  height: 158px;
+}
+
+p {
+  /* max-width: 70ch; */
+}

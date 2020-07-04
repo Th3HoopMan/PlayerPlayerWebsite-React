@@ -1,10 +1,50 @@
 import React from 'react';
-import './Hero.css';
+import styles from './Hero.module.css';
+import hero_supporting_image from '../Assets/hero_supporting_image.png';
+import show_logo from '../Assets/show_logo.png';
+import gameboy from '../Assets/gameboy.png';
+import spotify_logo from '../Assets/listen_spotify.png';
+import itunes_logo from '../Assets/apple_podcasts.png';
+import rss_logo from '../Assets/rss_badge.png';
 
 const hero = () => {
     return(
-    <div className="Hero">
-        <h1>Testing the Hero</h1>
+    <div className={styles.background}>
+        <div className={styles.hero}>
+            <div className={styles.logo}>
+                <img 
+                    src={show_logo}
+                    alt="Player Player Podcast Logo"
+                >     
+                </img>
+            </div>
+            <div className={styles.focusPoint}>
+                <div className={styles.gameboy}>
+                    <img 
+                        src={gameboy}
+                        alt="Gameboy"
+                    />     
+                </div>      
+                <div className={styles.heroTag}>     
+                    <h3>
+                        Let's Talk About Video Games.
+                    </h3>
+                </div>
+            </div>
+
+            <div className={styles.showLinks}>
+                <a href="https://podcasts.apple.com/us/podcast/player-player-a-video-game-podcast/id1407038144" target="_blank">
+                    <img className={styles.podcastLogo} src={itunes_logo}/>
+                </a>
+                <a href="https://open.spotify.com/show/3oNzUYeq8gfRal3MpklVOH" target="_blank">
+                    <img className={styles.podcastLogo} src={spotify_logo}/>
+                </a>
+                <a href="https://playerplayer.podbean.com/feed.xml" target="_blank">
+                    <img className={styles.podcastLogo} src={rss_logo}/>
+                </a>
+            </div>
+        </div>
+
     </div>
     );
 }

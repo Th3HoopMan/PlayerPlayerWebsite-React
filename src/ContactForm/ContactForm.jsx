@@ -1,23 +1,47 @@
 import React from 'react';
-import './ContactForm.css';
+import styles from  './ContactForm.module.css';
 
+import SectionHeader from '../SectionHeader/SectionHeader';
+import walkie from '../Assets/walkie.png';
+import twitterLogo from '../Assets/twitter_logo.png';
+import instagramLogo from '../Assets/ig_logo.png';
+import emailIcon from '../Assets/email.svg';
+
+
+const contactTitle = "Let's chat."
+const contactSubtitle = "Reach out to us and send us your feedback or show contributions!"
 const contactForm = () => {
     return (
-        <div>
-            <h1>Join the Conversation</h1>
-            <p>
-            Want to be a part of the show? Fantastic! Whether you have a question, 
-            a comment, or hot take, we want to hear it. Submit your thoughts here, 
-            or reach out to us via social media.
-            </p>
-            <form>
-                <label>Name:</label>
-                <input></input>
-                <label>Email:</label>
-                <input></input>
-                <label>Message:</label>
-                <textarea></textarea>
-            </form>
+        <div className={styles.contact}>
+            <div className={styles.container}>
+                <div className={styles.header}>
+                    <div className={styles.headingText}>
+                        <SectionHeader
+                            mainText={contactTitle}
+                            subtitile={contactSubtitle}
+                        />
+                    </div>
+                    <div className={styles.imgContainer}>                
+                        <img className={styles.walkie}
+                        src={walkie}
+                        />
+                    </div>
+                </div>
+
+                <div className={styles.siteSocials}>
+                <a className={styles.social} href="https://twitter.com/PlayerPlayerPod" target="_blank">
+                    <img  className={styles.socialIcon} src={twitterLogo} />
+                </a>
+                <a href="https://instagram.com/PlayerPlayerPod" target="_blank">
+                    <img className={styles.socialIcon} src={instagramLogo} />
+                </a>
+                <a href="mailto:admin@playerplayerpod.com" target="_blank">
+                    <img className={styles.socialIcon} src={emailIcon} />
+                </a>
+            </div>
+            </div>
+
+
         </div>
     );
 }

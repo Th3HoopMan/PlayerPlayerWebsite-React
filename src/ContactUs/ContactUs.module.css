@@ -1,0 +1,110 @@
+.contactUs {
+    background-color: #30B5B2;    
+}
+
+.container h4 {
+    font-size: 1.6rem;
+    padding: 10% 0 0 0;
+    color: #FFFBFC;
+    white-space: pre-line;
+    margin: 0;
+}
+
+.container h5 {
+    font-size: 1.2rem;
+    padding: 2.5% 10% 0;
+    color: #F5F5F5;
+}
+
+.textContent {
+    max-width: 900px;
+    margin: auto;
+    padding: 4% 0;
+}
+
+.twitterIcon {
+    width: 15%;
+    padding: 3%;
+    display: block;
+    margin: auto;
+    max-width: 70px;
+}
+
+.emailIcon {
+    width: 18%;
+    padding: 3%;
+    display: block;
+    margin: auto;
+    max-width: 100px;
+}
+
+.socialLinks {
+    margin: 1%;
+    display: inline-block;
+    width: 45%;
+    vertical-align: top
+}
+
+.supportingImage{
+    width: 70%;
+    margin: auto;
+}
+
+.contactUs a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.twitter {
+    color: #2983F7;
+}
+
+.email {
+    color: #306332
+    ;
+}
+
+@media (min-width: 768px) {
+
+    
+    .textContent {
+        padding: 4% 0 0;
+        text-align: left;
+        max-width: 600px;
+    }
+
+    .emailIcon {
+        margin: 0;
+    }
+
+    .twitterIcon {
+        margin: 0;
+    }
+    
+    
+
+    .container h4 {
+        font-size: 1.8rem;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container h5 {
+        font-size: 1rem;
+        padding: 0;
+
+    }
+
+    .contactUs {
+        display: flex;
+        padding: 0 15%;
+    }
+
+    .supportingImage{
+        width: 25%;
+        margin: auto;
+    }
+
+}
