@@ -21,6 +21,16 @@
 
 .donationButton {
     margin-bottom: 5%;
+
+    transition-timing-function: ease;
+    transition: 0.3s;
+    transform: scale(1);
+}
+
+.donationButton:hover {
+    transition-timing-function: ease;
+    transition: 0.3s;
+    transform: scale(1.1);
 }
 
 @media (min-width: 768px) {

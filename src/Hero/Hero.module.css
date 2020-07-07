@@ -52,7 +52,18 @@
     display: inline-block;
     max-width: 250px;
     margin: 2% 0;
+
+    transition-timing-function: ease;
+    transition: 0.3s;
+    transform: translate(0, 10px);
 }
+
+.podcastLogo:hover {
+    transition-timing-function: ease;
+    transition: 0.3s;
+    transform: translate(0, -10px);
+}
+
 
 
 @media (min-width: 768px) {

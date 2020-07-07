@@ -23,19 +23,39 @@
 }
 
 .twitterIcon {
-    width: 22%;
+    width: 19%;
     padding: 3%;
     display: block;
     margin: auto;
     max-width: 70px;
+
+    transition-timing-function: ease;
+    transition: 0.3s;
+    transform: scale(1);
+}
+
+.twitterIcon:hover {
+    transition-timing-function: ease;
+    transition: 0.3s;
+    transform: scale(1.1);
 }
 
 .emailIcon {
-    width: 25%;
+    width: 22%;
     padding: 3%;
     display: block;
     margin: auto;
     max-width: 100px;
+
+    transition-timing-function: ease;
+    transition: 0.3s;
+    transform: scale(1);
+}
+
+.emailIcon:hover {
+    transition-timing-function: ease;
+    transition: 0.3s;
+    transform: scale(1.1);
 }
 
 .socialLinks {
