@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Hero.module.css';
-import hero_supporting_image from '../Assets/hero_supporting_image.png';
 import show_logo from '../Assets/show_logo.png';
 import gameboy from '../Assets/gameboy.png';
 import spotify_logo from '../Assets/listen_spotify.png';
@@ -33,14 +32,26 @@ const hero = () => {
             </div>
 
             <div className={styles.showLinks}>
-                <a href="https://podcasts.apple.com/us/podcast/player-player-a-video-game-podcast/id1407038144" target="_blank">
-                    <img className={styles.podcastLogo} src={itunes_logo}/>
+                <a href="https://podcasts.apple.com/us/podcast/player-player-a-video-game-podcast/id1407038144" target="_blank" rel="noopener noreferrer">
+                    <img 
+                        className={styles.podcastLogo} 
+                        src={itunes_logo}
+                        alt="Itunes logo"    
+                    />
                 </a>
-                <a href="https://open.spotify.com/show/3oNzUYeq8gfRal3MpklVOH" target="_blank">
-                    <img className={styles.podcastLogo} src={spotify_logo}/>
+                <a href="https://open.spotify.com/show/3oNzUYeq8gfRal3MpklVOH" target="_blank" rel="noopener noreferrer">
+                    <img 
+                        className={styles.podcastLogo}
+                        src={spotify_logo}
+                        alt="Spotify logo"
+                    />
                 </a>
-                <a href="https://playerplayer.podbean.com/feed.xml" target="_blank">
-                    <img className={styles.podcastLogo} src={rss_logo}/>
+                <a href="https://playerplayer.podbean.com/feed.xml" target="_blank" rel="noopener noreferrer">
+                    <img 
+                        className={styles.podcastLogo}
+                        src={rss_logo}
+                        alt="Rss logo"
+                    />
                 </a>
             </div>
         </div>

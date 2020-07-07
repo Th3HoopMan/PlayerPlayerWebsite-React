@@ -23,7 +23,7 @@
 }
 
 .twitterIcon {
-    width: 15%;
+    width: 22%;
     padding: 3%;
     display: block;
     margin: auto;
@@ -31,7 +31,7 @@
 }
 
 .emailIcon {
-    width: 18%;
+    width: 25%;
     padding: 3%;
     display: block;
     margin: auto;
@@ -58,7 +58,7 @@
 }
 
 .twitter {
-    color: #2983F7;
+    color: #135dbd;
 }
 
 .email {
@@ -92,7 +92,7 @@
     }
     
     .container h5 {
-        font-size: 1rem;
+        font-size: .8rem;
         padding: 0;
 
     }

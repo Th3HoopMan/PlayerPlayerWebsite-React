@@ -10,11 +10,6 @@ import Donations from './Donations/Donations';
 import ContentPitch from './ContentPitch/ContentPitch';
 import Footer from './Footer/Footer';
 
-
-
-const welcomeHeader = "Welcome to the Player Player Podcast!";
-const showDescriptionHeader = "Gather ‘Round the Virtual Watercooler";
-
 function App() {
   return (
     <div className="App">

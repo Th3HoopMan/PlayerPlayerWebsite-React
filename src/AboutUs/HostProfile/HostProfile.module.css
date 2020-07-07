@@ -1,0 +1,109 @@
+.profileContainer {
+    margin: 0 5% 15%;
+}
+
+.picContainer {
+    border: 4px solid #383737;
+    margin: 5% auto;
+    padding: 2%;
+    text-align: center;
+    overflow:hidden;
+
+}
+
+.joePhoto {
+    background-color: #D90368;
+}
+
+.arsenePhoto {
+    background-color: #FFCA00;
+}
+
+.pic {
+    width: 30%;
+}
+
+.personalDetails {
+    text-align: center;
+    
+}
+
+.personalDetails h4 {
+    font-size: 1.4rem;
+    margin: 0
+}
+
+
+.personalDetails h5 {
+    font-size: 1.1rem;
+    font-style: italic;
+    font-weight: 600;
+    margin: 0
+}
+
+.divider {
+    border: 1px solid grey;
+    width: 60%;
+    margin: 3% auto;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.logos a {
+    width: 100%;
+    text-align: right;
+    margin: 1% 4%;
+}
+
+.logos a:nth-child(2) {
+    text-align: left;
+}
+.socialMediaIcon {
+    width: 40%;
+    
+}
+
+
+@media (min-width: 768px) {
+    .profileContainer {
+        width: 40%;
+        margin: 0 auto;
+        position: relative;
+        max-width: 400px;
+    }
+
+    .picContainer {
+        margin: 5% auto;
+        padding: 0;
+        text-align: center;
+        max-width: 600px;
+    }
+
+    .pic {
+        width: 35%;
+    }
+
+    .socialMediaIcon{
+        width: 40%;
+    }
+
+    .personalDetails h4 {
+        font-size: 1.4rem;
+
+    }
+    
+    .personalDetails h5 {
+        font-size: 1rem;
+    }
+
+    .personalDetails p {
+        font-size: .9rem;
+    }
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Donations.module.css';
-import coffee from '../Assets/BuyACoffee.png';
+import donationButton from '../Assets/BuyACoffee.png';
+import coffee from '../Assets/coffee.png';
 
 
 
@@ -15,11 +16,16 @@ const Donations = () => {
     <div  className={styles.donations}>
         <div className={styles.header}>
             <h4>{header1}</h4>
+            <img
+                className={styles.coffee}
+                src={coffee}
+                alt="Coffee"
+            />
             <h5>{details}</h5>
-            <a href="https://ko-fi.com/th3hoopman" target="_blank">
+            <a href="https://ko-fi.com/th3hoopman" target="_blank" rel="noopener noreferrer">
                 <img
-                    className={styles.vault}
-                    src={coffee}
+                    className={styles.donationButton}
+                    src={donationButton}
                     alt="Ko-Fi Support Link"
                 />
             </a>

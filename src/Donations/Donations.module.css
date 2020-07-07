@@ -1,6 +1,6 @@
 .donations {
     color: #383737;
-    padding: 10%   ;
+    padding: 3%   ;
     text-align: center;
     background-color: white;
 }
@@ -16,7 +16,11 @@
 }
 
 .header img {
-    width: 80%;
+    width: 60%;
+}
+
+.donationButton {
+    margin-bottom: 5%;
 }
 
 @media (min-width: 768px) {
@@ -32,11 +36,12 @@
     }
     
     .header h5 {
-        font-size: 1rem;
+        font-size: .8rem;
+        margin-top: 0;
     }
 
     .header img {
-        width: 50%;
+        width: 25%;
     }
 
 }
