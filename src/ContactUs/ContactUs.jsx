@@ -18,7 +18,7 @@ const ContactUs = () => {
                 <h4> {header1} </h4>
                 <h5> {details} </h5>
                 <div className={styles.socialLinks}>
-                    <a className={styles.twitter} href="twitter.com/PlayerPlayerPod" target="_blank" rel="noopener noreferrer">
+                    <a className={styles.twitter} href="twitter.com/PlayerPlayerPod">
                         Tweet Us.
                         <img 
                                 className={styles.twitterIcon}
@@ -28,7 +28,7 @@ const ContactUs = () => {
                     </a>
                 </div>
                 <div className={styles.socialLinks}>
-                    <a className={styles.email} href="mailto: admin@Playerplayerpod.com" target="_blank" rel="noopener noreferrer">
+                    <a className={styles.email} href="mailto: admin@Playerplayerpod.com">
                         Email Us.
                         <img 
                             className={styles.emailIcon}

@@ -22,7 +22,7 @@ const Donations = () => {
                 alt="Coffee"
             />
             <h5>{details}</h5>
-            <a href="https://ko-fi.com/th3hoopman" target="_blank" rel="noopener noreferrer">
+            <a href="https://ko-fi.com/th3hoopman">
                 <img
                     className={styles.donationButton}
                     src={donationButton}

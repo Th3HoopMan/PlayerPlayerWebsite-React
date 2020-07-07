@@ -32,21 +32,21 @@ const hero = () => {
             </div>
 
             <div className={styles.showLinks}>
-                <a href="https://podcasts.apple.com/us/podcast/player-player-a-video-game-podcast/id1407038144" target="_blank" rel="noopener noreferrer">
+                <a href="https://podcasts.apple.com/us/podcast/player-player-a-video-game-podcast/id1407038144">
                     <img 
                         className={styles.podcastLogo} 
                         src={itunes_logo}
                         alt="Itunes logo"    
                     />
                 </a>
-                <a href="https://open.spotify.com/show/3oNzUYeq8gfRal3MpklVOH" target="_blank" rel="noopener noreferrer">
+                <a href="https://open.spotify.com/show/3oNzUYeq8gfRal3MpklVOH">
                     <img 
                         className={styles.podcastLogo}
                         src={spotify_logo}
                         alt="Spotify logo"
                     />
                 </a>
-                <a href="https://playerplayer.podbean.com/feed.xml" target="_blank" rel="noopener noreferrer">
+                <a href="https://playerplayer.podbean.com/feed.xml">
                     <img 
                         className={styles.podcastLogo}
                         src={rss_logo}

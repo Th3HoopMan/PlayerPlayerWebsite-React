@@ -19,14 +19,14 @@ const HostProfile = ({profilePicSrc, bgColor, twitterSrc, instaSrc, name, title,
                 <h5>{title}</h5>
             </div>
             <div className={styles.logos}>
-                <a href={twitterSrc} target="_blank" rel="noopener noreferrer">
+                <a href={twitterSrc}>
                     <img 
                         className={styles.socialMediaIcon}
                         src={twitterLogo} 
                         alt="Twitter Logo"
                     />
                 </a>
-                <a href={instaSrc} target="_blank" rel="noopener noreferrer">
+                <a href={instaSrc}>
                     <img 
                         className={styles.socialMediaIcon}
                         src={instagramLogo} 
