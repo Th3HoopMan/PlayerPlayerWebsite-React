@@ -9,7 +9,7 @@ import coffee from '../Assets/coffee.png';
 const header1 = `Enjoy the Content? Buy us a Coffee.`
 
 const details = "Player Player is a passion project that is completely funded from money out of our own pockets. " +
-                "If you enjoy the content and want help us keep the mics on, click the button below!"
+                "If you enjoy the content and want to help us keep the mics on, click the button below!"
 
 const Donations = () => {
     return(

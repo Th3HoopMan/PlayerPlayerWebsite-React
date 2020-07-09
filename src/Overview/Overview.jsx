@@ -21,7 +21,7 @@ const overview = () => {
                     discuss, debate, praise, predict, and laugh about video 
                     games and the culture surrounding them. <span className={styles.highlighted}>Every Thursday of every
                     week</span> your two favorite hosts (and sometimes a special guest) link
-                    up to craft casual and candid discussion that is packed up and shot over 
+                    up to craft a casual and candid discussion that is packed up and shot over 
                     the internet for your listening pleasure.
                 </h5>
             </div>

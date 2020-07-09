@@ -5,7 +5,7 @@ import vault from '../Assets/vault_cropped.png';
 
 
 const header = "Dive into a Treasure Trove of Content."
-const details = "Over the past couple of years we've discussed hundreds of topics. From the market potential of chocolate chipless cookies to reacting to " + 
+const details = "Over the past couple of years we've discussed hundreds of topics. From the market potential of chocolate chipless cookies to our thoughts " + 
 "the unveiling of the PS5, our discussions know no bounds."
 
 const ContentPitch = () => {

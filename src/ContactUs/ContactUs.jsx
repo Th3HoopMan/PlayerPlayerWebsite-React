@@ -18,7 +18,7 @@ const ContactUs = () => {
                 <h4> {header1} </h4>
                 <h5> {details} </h5>
                 <div className={styles.socialLinks}>
-                    <a className={styles.twitter} href="twitter.com/PlayerPlayerPod">
+                    <a className={styles.twitter} href="https://twitter.com/PlayerPlayerPod">
                         Tweet Us.
                         <img 
                                 className={styles.twitterIcon}

@@ -32,7 +32,7 @@ class AboutUs extends Component  {
                         title="Co Founder / Co Host"
                     >
                         <p>
-                            Joseph is a Full-Time software developer living in Seattle. He's been gaming since he
+                            Joseph is a full-time software developer living in Seattle. He's been gaming since he
                             was a wee boy and as a result has grown passionate about not only video games in general but 
                             the industry and culture surrounding them. When he's not playing games he spends time collecting 
                             sneakers, catching up on his favorite anime, and eating around the city.
@@ -47,7 +47,7 @@ class AboutUs extends Component  {
                         title="Co Founder / Co Host"
                     >
                         <p>
-                            Arsene works as a Full-Time software developer out of Atlanta. He enjoys a wide array of
+                            Arsene works as a full-time software developer out of Atlanta. He enjoys a wide array of
                             games, often picking out the hidden indie gems among the blockbuster titles. His other hobbies 
                             include cooking, watching tv and movies, and boolin around.
                         </p>
