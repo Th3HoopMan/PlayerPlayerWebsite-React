@@ -1,6 +1,10 @@
 {
   "hosting": {
     "public": "build",
+    "github": {
+    "repo": "Th3HoopMan/PlayerPlayerWebsite-React",
+    "branch": "master"
+    },
     "ignore": [
       "firebase.json",
       "**/.*",
